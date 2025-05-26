@@ -6,6 +6,10 @@ This repository contains the paper "Closed-Form Matrix Elements for Arbitrary-Va
 
 We derive closed-form expressions for SU(2) operator matrix elements on arbitrary-valence nodes by extending the universal generating functional approach with source terms. Our central result is a determinant-based formula incorporating group-element dependence, which yields all matrix elements via a single Gaussian integral and hypergeometric expansion.
 
+## Live Site
+
+Access the paper online at [https://arcticoder.github.io/su2-node-matrix-elements/](https://arcticoder.github.io/su2-node-matrix-elements/)
+
 ## Repository Contents
 
 - `index.md`: Main landing page with abstract and link to full paper
