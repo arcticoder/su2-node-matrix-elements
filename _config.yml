@@ -5,3 +5,9 @@ theme: jekyll-theme-cayman
 markdown: kramdown
 kramdown:
   math_engine: mathjax
+baseurl: "/su2-node-matrix-elements"
+url: "https://arcticoder.github.io"
+sass:
+  sass_dir: assets/css
+  style: compressed
+destination: docs

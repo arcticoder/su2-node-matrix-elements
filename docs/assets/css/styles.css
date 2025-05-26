@@ -1,11 +1,4 @@
----
----
-
-@import "{{ site.theme }}";
-
-/* Custom styles for GitHub Pages */
-
-/* Custom styles for GitHub Pages */
+/* Fallback CSS for GitHub Pages */
 body {
   font-family: "Computer Modern", Georgia, serif;
   line-height: 1.6;
@@ -81,7 +74,6 @@ code {
   border-radius: 3px;
 }
 
-/* Enhance links styling */
 a {
   color: #0366d6;
   text-decoration: none;
@@ -91,23 +83,11 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Math display styling */
 .MathJax {
   overflow-x: auto;
   max-width: 100%;
 }
 
-/* Improved readability for equations */
 p {
   text-align: justify;
-}
-
-@media (max-width: 600px) {
-  body {
-    padding: 10px;
-  }
-  
-  .container {
-    padding: 15px;
-  }
 }
