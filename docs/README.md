@@ -2,15 +2,11 @@
 
 This repository contains the paper "Closed-Form Matrix Elements for Arbitrary-Valence SU(2) Nodes via Generating Functionals" and its implementation as a GitHub Pages site.
 
-**Website**: [https://arcticoder.github.io/su2-node-matrix-elements/](https://arcticoder.github.io/su2-node-matrix-elements/)
+**Website**: [https://arcticoder.github.io/su2-node-matrix-elements/](https://arcticoder.github.io/su2-node-matrix-elements/docs/)
 
 ## Abstract
 
 We derive closed-form expressions for SU(2) operator matrix elements on arbitrary-valence nodes by extending the universal generating functional approach with source terms. Our central result is a determinant-based formula incorporating group-element dependence, which yields all matrix elements via a single Gaussian integral and hypergeometric expansion.
-
-## Live Site
-
-Access the paper online at [https://arcticoder.github.io/su2-node-matrix-elements/](https://arcticoder.github.io/su2-node-matrix-elements/)
 
 ## Repository Contents
 
@@ -20,11 +16,3 @@ Access the paper online at [https://arcticoder.github.io/su2-node-matrix-element
 - `assets/css/style.scss`: Main CSS for the site (processed by Jekyll)
 - `_config.yml`: Jekyll configuration file
 - Original LaTeX source files
-
-## GitHub Pages and Jekyll
-
-This repository is set up to use GitHub Pages with Jekyll for publishing. The site is automatically built from the source files in the main branch. We use:
-
-- Jekyll's default `style.scss` processing to generate CSS
-- Cayman theme for the base styling
-- MathJax for rendering mathematical expressions
