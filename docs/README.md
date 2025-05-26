@@ -16,6 +16,15 @@ Access the paper online at [https://arcticoder.github.io/su2-node-matrix-element
 
 - `index.html`: HTML version of the full paper with MathJax support
 - `_layouts/default.html`: Jekyll layout template
-- `assets/css/style.scss`: Custom CSS for the GitHub Pages site (processed by Jekyll)
+- `_includes/head.html`: HTML head section with CSS and script references
+- `assets/css/style.scss`: Main CSS for the site (processed by Jekyll)
 - `_config.yml`: Jekyll configuration file
 - Original LaTeX source files
+
+## GitHub Pages and Jekyll
+
+This repository is set up to use GitHub Pages with Jekyll for publishing. The site is automatically built from the source files in the main branch. We use:
+
+- Jekyll's default `style.scss` processing to generate CSS
+- Cayman theme for the base styling
+- MathJax for rendering mathematical expressions
