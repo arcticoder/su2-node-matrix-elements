@@ -7,6 +7,8 @@ kramdown:
   math_engine: mathjax
 baseurl: "/su2-node-matrix-elements"
 url: "https://arcticoder.github.io"
+plugins:
+  - jekyll-sitemap
 sass:
   sass_dir: assets/css
   style: compressed
