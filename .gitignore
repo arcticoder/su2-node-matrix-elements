@@ -26,3 +26,5 @@ Thumbs.db
 *.synctex.gz
 
 .github/instructions/copilot-instructions.md
+
+.github/
